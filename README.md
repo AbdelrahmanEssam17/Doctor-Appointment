@@ -1,1 +1,1 @@
-# Doctor-Appointment
+Doctor Appointment is a full-stack web application designed to streamline the process of booking and managing doctor appointments. It allows patients to view available doctors, schedule consultations, and manage their appointments, while doctors can track their schedules, patient details, and appointment history
