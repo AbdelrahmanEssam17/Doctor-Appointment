@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Doctor Appointment is a backend-focused web application built to manage and streamline doctor–patient appointment scheduling. It provides secure APIs for patient registration, doctor management, appointment booking, schedule handling, and viewing appointment history.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/AbdelrahmanEssam17/Doctor-Appointment/issues"
   },
-  "homepage": "https://github.com/AbdelrahmanEssam17/Doctor-Appointment#readme"
+  "homepage": "https://github.com/AbdelrahmanEssam17/Doctor-Appointment#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.0",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.2",
+    "multer": "^2.0.2",
+    "uuid": "^13.0.0"
+  }
 }
