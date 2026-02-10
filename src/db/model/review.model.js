@@ -8,7 +8,7 @@ const reviewSchema = new Schema(
     },
     user: {
       type: Types.ObjectId,
-      ref: "patient", // make sure your patient model name is exactly "patient"
+      ref: "patient", 
       required: true
     },
     rate: {
