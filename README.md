@@ -1,0 +1,1 @@
+Doctor Appointment is a backend-focused web application built to manage and streamline doctor–patient appointment scheduling. It provides secure APIs for patient registration, doctor management, appointment booking, schedule handling, and viewing appointment history.
